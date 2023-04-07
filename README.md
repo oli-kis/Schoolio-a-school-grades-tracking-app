@@ -8,4 +8,4 @@ Auf der Seite «Fächer» kann man alle Fächer sehen, Fächer hinzufügen und a
 
 Auf der Seite «alle Noten» werden alle Noten der jeweiligen Fächer in einer Liste aufgelistet. Im Übrigen wird dort auch der Gesamtdurchschnitt berechnet, indem alle Noten von allen Fächern summiert werden und dann durch die Anzahl Noten geteilt wird.
 
-![Schoolio Display](http://url/to/img.png)
+![Schoolio Display](https://github.com/oli-kis/olikis-images/blob/oli-kis/874shots_so.png)
