@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mathematik",
+    "className": "mathe"
+  },
+  {
+    "name": "Deutsch",
+    "className": "deutsch"
+  },
+  {
+    "name": "Englisch",
+    "className": "englisch"
+  },
+  {
+    "name": "Naturwissenschaften",
+    "className": "naturwissenschaften"
+  },
+  {
+    "name": "Französisch",
+    "className": "französisch"
+  },
+  {
+    "name": "Sport",
+    "className": "sport"
+  }
+]

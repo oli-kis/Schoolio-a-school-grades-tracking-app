@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ac9feb079a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Schoolio</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo">SCHOOLIO</div>
+      <div class="nav-menu">
+        <a href="index.html">Noten</a>
+        <a href="facher.html">Fächer</a>
+        <a href="allmarks.html">Alle Noten</a>
+      </div>
+    </nav>
+    <div class="grid-container" id="grid">
+      <a onclick="togglePopupSubject()"
+        ><div class="grid-item hinzufügen">
+          <i class="fa-solid fa-plus fa-2x addSymbol"></i>
+        </div>
+      </a>
+    </div>
+
+    <!--Quelle: https://www.youtube.com/watch?v=iE_6pQ3RlZU-->
+    <div class="popup" id="popup-1">
+      <div class="overlay">
+        <div class="content" id="popup-content">
+          <div class="closeBtn" onclick="reload()">&times;</div>
+          <h1>Fach hinzufügen</h1>
+          <form>
+            <input type="text" placeholder="Fachname" id="subjectName" />
+            <button onclick="deleteSubject()">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/subjects.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
