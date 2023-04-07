@@ -32,4 +32,5 @@ node index.js
 ```
 
 Nun können Sie die Website mit ihren Fuktionalitäten zum Beispiel mit dem Live Server Plugin im Browser aufrufen.
+
 ![Schoolio Display](https://github.com/oli-kis/olikis-images/blob/oli-kis/0shots_so.png)
